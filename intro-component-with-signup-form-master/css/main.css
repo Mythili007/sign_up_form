@@ -1,0 +1,121 @@
+:root {
+    --clr-accent-200: #0a14cf;
+    --clr-primary-200: #fc0814;
+    --clr-primary-400: #06b348;
+    --ff-primary: 'Poppins', sans-serif;
+}
+
+
+
+body {
+    padding: 2rem;
+    min-height: 100vh;
+    place-items: center;
+    display: grid;
+    font-family: var(--ff-primary);
+    font-size: 16px;
+    font-weight: 400;
+    background-image: url('/intro-component-with-signup-form-master/images/bg-intro-mobile.png');
+    background-color:#f88379;
+}
+
+header,
+section {
+    /* padding-left: 3rem;
+    padding-right: 3rem; */
+    padding: 0.5rem;
+    margin: 0;
+}
+
+/* .trial-section {
+    text-align: center;
+} */
+
+.text-center {
+    text-align: center;
+    width: min(90%, 70.5rem);
+}
+
+.intro {
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+    width: 100%;
+    max-width: 350px;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.form-input,
+.form-button {
+    opacity: var(--clr-accent-400);
+    font-family: var(--ff-primary);
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border: 1px solid rgb(230, 221, 221);
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+/* Placeholder text color change when clicks in the text field */
+.form-input:focus::placeholder {
+    color: #a8cbf3;
+}
+
+.form-item {
+    margin-top: 10px;
+    line-height: 3;
+    max-width: 500px;
+    width: 250px;
+    height: 50px;
+    box-sizing: border-box;
+}
+
+.form-button {
+    text-transform: uppercase;
+    font-size: 12px;
+    color:rgb(245, 242, 238);
+    border-radius: 8px;
+    background-color: #57d481;
+}
+
+.form-text {
+    text-align: center;
+    padding: 0.6rem;
+    font-size: x-small;
+    color: rgb(144, 163, 163);
+}
+
+.form-text em {
+    color: #f5060e;
+}
+
+.form-trail {
+    background-color: #560acf;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 0.1rem;
+    line-height: 1.2;
+    font-family: var(--ff-primary);
+    font-weight: 100;
+}
+
+/* @media  */

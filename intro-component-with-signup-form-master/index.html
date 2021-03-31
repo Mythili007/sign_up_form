@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+  <style>
+    body {
+      font-family: "Poppins"sans-serif;
+    }
+  </style>
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <script>
+    function validateForm(){
+      var fn = document.forms["myform"]["fname"].value();
+      // var ln = document.form["form"]['lname'].value();
+      // var mail = document.form["form"]['email'].value();
+      // var pwd = document.form["form"]['pwd'].value();
+      if(fn == ""){
+        alert("First Name field should not be empty");
+        return false;
+      }
+
+      /* if(ln == ""){
+        alert("Last Name field should not be empty");
+        return false;
+      }
+
+      if(mail == ""){
+        alert("Email field should not be empty");
+        return false;
+      }
+
+      if(pwd == ""){
+        alert("Password field should not be empty");
+        return false;
+      }
+ */
+    }
+  </script>
+</head>
+
+<body>
+  <header class="text-center">
+    <div class="intro">
+      <h2>Learn to code by watching others</h2>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+  </header>
+  <section class="trial-section">
+    <form action="#" class="form-trail">
+      <div class="container">
+        <p class="text-center"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+      </div>
+    </form>
+  </section>
+  <section>
+    <form name="myform" action="#" onsubmit="return validateForm()" method="post" class="form">
+      <div class="form-item">
+        <input name="fname" type="text"class="form-input" placeholder="First Name" aria-label="first name">
+      </div>
+
+      <div class="form-item">
+        <input name="lname" type="text" class="form-input" placeholder="Last Name" aria-label="last name">
+      </div>
+
+      <div class="form-item">
+        <input name="email_text" type="email" class="form-input" placeholder="Email Address" aria-label="email address">
+      </div>
+
+      <div class="form-item">
+        <input name="pwd" type="password" class="form-input" placeholder="Password" aria-label="password">
+      </div>
+      <div class="form-item">
+        <button class="form-button" type="submit"> Claim your free trial</button>
+      </div>
+      <div>
+        <p class="form-text">By clicking on the button you are agreeing to our <em>Terms and Services</em></p>
+      </div>
+
+    </form>
+
+  </section>
+</body>
+
+</html>

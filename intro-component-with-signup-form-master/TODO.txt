@@ -1,0 +1,4 @@
+Align all components including intro, header and all sections properly
+Trial section text should be shown as per design
+
+Code should work for all kinds of devices
