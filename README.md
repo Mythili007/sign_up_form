@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Check out my solution on Frontend Mentor: [Add solution URL here](https://www.frontendmentor.io/solutions/html-css-Y2RRhOzby)
-- Live Site URL: [Add live site URL here](https://mythili007.github.io/sign_up_form/)
+- Check out my solution on Frontend Mentor: [Solution](https://www.frontendmentor.io/solutions/html-css-Y2RRhOzby)
+- Live Site URL: [Live site URL](https://mythili007.github.io/sign_up_form/)
 
 ## My process
 I am a complete newbie here. Help me to stand on my knees here. Feel free to criticize my code.
